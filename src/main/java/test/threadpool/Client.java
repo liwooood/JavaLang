@@ -39,7 +39,7 @@ public class Client {
     public static void main(String[] args) {
         Client client = new Client();
 
-      //  Runtime.getRuntime().addShutdownHook(new ExitThread(client));
+       Runtime.getRuntime().addShutdownHook(new ExitThread(client));
 
 
         client.start();
